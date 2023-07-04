@@ -21,7 +21,7 @@ function add_to_cart(id)
 	x = x * 1 + 1;
 	window.localStorage.setItem(key, x);
 
-	update_orders_input();
+	update_orders_input();  
 }
 
 
