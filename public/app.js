@@ -1,5 +1,3 @@
-
-
 function something()
 {
 	var x = window.localStorage.getItem('bb');
@@ -77,6 +75,9 @@ function cart_get_orders()
 
 function cancel_order()
 {
-	alert('aaa');
+	alert('1');
+	window.localStorage.clear();
+	update_orders_input();
+	update_orders_button();
 	return false;
 }
